@@ -8,8 +8,8 @@ function App(): JSX.Element {
         <div className="App">
             <h1>header is here</h1>
             <img
-                src="https://drive.google.com/uc?id=1mKAzffEPl8d7VJJOwKJQxxaZBtd9qPkq"
-                alt="My trip to PR"
+                src="https://www.discoverpuertorico.com/sites/default/files/styles/horizontal_narrow_800x600/public/2019-02/playuela-beach-cabo-rojo.jpg?h=6eb229a4&itok=H9UWuO1C"
+                alt="PR Beach"
             />
             <header className="App-header">
                 UD CISC275 with React Hooks and TypeScript DIANA DIAZ
@@ -22,7 +22,7 @@ function App(): JSX.Element {
                 <Col> First col is here </Col>
                 <Col>
                     {" "}
-                    <img src="https://drive.google.com/uc?id=1mKAzffEPl8d7VJJOwKJQxxaZBtd9qPkq" />{" "}
+                    <img src="https://www.discoverpuertorico.com/sites/default/files/styles/horizontal_narrow_800x600/public/2019-02/playuela-beach-cabo-rojo.jpg?h=6eb229a4&itok=H9UWuO1C" />{" "}
                 </Col>
             </Row>
             <div style={{ border: "1px solid red", padding: "4px" }}>
