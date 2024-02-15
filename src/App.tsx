@@ -6,6 +6,10 @@ import { Col, Container, Row } from "react-bootstrap";
 function App(): JSX.Element {
     return (
         <div className="App">
+            <header className="App-header">
+                UD CISC275 with React Hooks and TypeScript DIANA DIAZ
+            </header>
+
             <div>
                 <h1>header is here</h1>
             </div>
@@ -16,9 +20,6 @@ function App(): JSX.Element {
                     style={{ width: "120px", height: "100px" }}
                 />
             </div>
-            <header className="App-header">
-                UD CISC275 with React Hooks and TypeScript DIANA DIAZ
-            </header>
             <>
                 <div>
                     <Button onClick={() => console.log("Hello World!")}>
