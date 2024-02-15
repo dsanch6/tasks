@@ -23,16 +23,16 @@ function App(): JSX.Element {
                     Log Hello World
                 </Button>
             </div>
-
-            <Col> First col is here </Col>
-            <Col>
-                {" "}
-                <img
-                    src="https://www.discoverpuertorico.com/sites/default/files/styles/horizontal_narrow_800x600/public/2019-02/playuela-beach-cabo-rojo.jpg?h=6eb229a4&itok=H9UWuO1C"
-                    style={{ width: "120px", height: "100px" }}
-                />{" "}
-            </Col>
-
+            <Row>
+                <Col> First col is here </Col>
+                <Col>
+                    {" "}
+                    <img
+                        src="https://www.discoverpuertorico.com/sites/default/files/styles/horizontal_narrow_800x600/public/2019-02/playuela-beach-cabo-rojo.jpg?h=6eb229a4&itok=H9UWuO1C"
+                        style={{ width: "120px", height: "100px" }}
+                    />{" "}
+                </Col>
+            </Row>
             <div style={{ border: "1px solid red", padding: "4px" }}>
                 <ol>
                     <li>Palm Trees</li>
