@@ -53,7 +53,7 @@ FAIL src/App.test.tsx
       at Runtime.createScriptFromCode (node_modules/jest-runtime/build/index.js:1728:14)
       at Object.<anonymous> (src/App.tsx:3:1)
 
-FAIL src/HtmlCss.test.tsx
+FAIL src/text.test.tsx
   ● Test suite failed to run
 
     Jest encountered an unexpected token
@@ -95,7 +95,7 @@ FAIL src/HtmlCss.test.tsx
       at Runtime.createScriptFromCode (node_modules/jest-runtime/build/index.js:1728:14)
       at Object.<anonymous> (src/App.tsx:3:1)
 
-FAIL src/text.test.tsx
+FAIL src/HtmlCss.test.tsx
   ● Test suite failed to run
 
     Jest encountered an unexpected token
@@ -146,5 +146,5 @@ All files |       0 |      100 |       0 |       0 |
 Test Suites: 3 failed, 3 total
 Tests:       0 total
 Snapshots:   0 total
-Time:        2.631 s
+Time:        2.831 s
 Ran all test suites.
