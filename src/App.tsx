@@ -6,7 +6,9 @@ import { Col, Container, Row } from "react-bootstrap";
 function App(): JSX.Element {
     return (
         <div className="App">
-            <h1>header is here</h1>
+            <div>
+                <h1>header is here</h1>
+            </div>
             <div>
                 <img
                     src="https://www.discoverpuertorico.com/sites/default/files/styles/horizontal_narrow_800x600/public/2019-02/playuela-beach-cabo-rojo.jpg?h=6eb229a4&itok=H9UWuO1C"
