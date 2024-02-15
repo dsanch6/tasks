@@ -6,18 +6,18 @@ import { Col, Row } from "react-bootstrap";
 function App(): JSX.Element {
     return (
         <div className="App">
-            <h1>header is here</h1>
+            <header>header is here</header>
 
             <img
                 src="https://www.discoverpuertorico.com/sites/default/files/styles/horizontal_narrow_800x600/public/2019-02/playuela-beach-cabo-rojo.jpg?h=6eb229a4&itok=H9UWuO1C"
                 alt="PR Beach"
-                style={{ width: "60px", height: "50px" }}
+                style={{ width: "120px", height: "100px" }}
             />
 
             <header className="App-header">
                 UD CISC275 with React Hooks and TypeScript DIANA DIAZ
             </header>
-            <Button>Log Hello World</Button>
+
             <Button onClick={() => console.log("Hello World!")}>
                 Log Hello World
             </Button>
@@ -28,7 +28,7 @@ function App(): JSX.Element {
                     {" "}
                     <img
                         src="https://www.discoverpuertorico.com/sites/default/files/styles/horizontal_narrow_800x600/public/2019-02/playuela-beach-cabo-rojo.jpg?h=6eb229a4&itok=H9UWuO1C"
-                        style={{ width: "60px", height: "50px" }}
+                        style={{ width: "120px", height: "100px" }}
                     />{" "}
                 </Col>
             </Row>
