@@ -11,7 +11,7 @@ Browserslist: caniuse-lite is outdated. Please run:
 Browserslist: caniuse-lite is outdated. Please run:
   npx browserslist@latest --update-db
   Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
-FAIL src/HtmlCss.test.tsx
+FAIL src/App.test.tsx
   ● Test suite failed to run
 
     Jest encountered an unexpected token
@@ -53,7 +53,7 @@ FAIL src/HtmlCss.test.tsx
       at Runtime.createScriptFromCode (node_modules/jest-runtime/build/index.js:1728:14)
       at Object.<anonymous> (src/App.tsx:3:1)
 
-FAIL src/App.test.tsx
+FAIL src/HtmlCss.test.tsx
   ● Test suite failed to run
 
     Jest encountered an unexpected token
@@ -141,10 +141,10 @@ FAIL src/text.test.tsx
 File      | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
 ----------|---------|----------|---------|---------|-------------------
 All files |       0 |      100 |       0 |       0 |                   
- App.tsx  |       0 |      100 |       0 |       0 | 7-18              
+ App.tsx  |       0 |      100 |       0 |       0 | 7-21              
 ----------|---------|----------|---------|---------|-------------------
 Test Suites: 3 failed, 3 total
 Tests:       0 total
 Snapshots:   0 total
-Time:        2.694 s
+Time:        2.654 s
 Ran all test suites.
