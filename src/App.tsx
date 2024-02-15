@@ -11,7 +11,7 @@ function App(): JSX.Element {
             <img
                 src="https://www.discoverpuertorico.com/sites/default/files/styles/horizontal_narrow_800x600/public/2019-02/playuela-beach-cabo-rojo.jpg?h=6eb229a4&itok=H9UWuO1C"
                 alt="PR Beach"
-                style={{ width: "25px", height: "20px" }}
+                style={{ width: "60px", height: "50px" }}
             />
 
             <header className="App-header">
@@ -19,7 +19,7 @@ function App(): JSX.Element {
             </header>
             <Button>Log Hello World</Button>
             <Button onClick={() => console.log("Hello World!")}>
-                Click Me
+                Log Hello World
             </Button>
 
             <Row>
@@ -28,7 +28,7 @@ function App(): JSX.Element {
                     {" "}
                     <img
                         src="https://www.discoverpuertorico.com/sites/default/files/styles/horizontal_narrow_800x600/public/2019-02/playuela-beach-cabo-rojo.jpg?h=6eb229a4&itok=H9UWuO1C"
-                        style={{ width: "25px", height: "20px" }}
+                        style={{ width: "60px", height: "50px" }}
                     />{" "}
                 </Col>
             </Row>
