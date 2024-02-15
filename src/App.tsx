@@ -7,13 +7,13 @@ function App(): JSX.Element {
     return (
         <div className="App">
             <h1>header is here</h1>
-
-            <img
-                src="https://www.discoverpuertorico.com/sites/default/files/styles/horizontal_narrow_800x600/public/2019-02/playuela-beach-cabo-rojo.jpg?h=6eb229a4&itok=H9UWuO1C"
-                alt="PR Beach"
-                style={{ width: "120px", height: "100px" }}
-            />
-
+            <div>
+                <img
+                    src="https://www.discoverpuertorico.com/sites/default/files/styles/horizontal_narrow_800x600/public/2019-02/playuela-beach-cabo-rojo.jpg?h=6eb229a4&itok=H9UWuO1C"
+                    alt="PR Beach"
+                    style={{ width: "120px", height: "100px" }}
+                />
+            </div>
             <header className="App-header">
                 UD CISC275 with React Hooks and TypeScript DIANA DIAZ
             </header>
@@ -24,16 +24,15 @@ function App(): JSX.Element {
                 </Button>
             </div>
 
-            <Row>
-                <Col> First col is here </Col>
-                <Col>
-                    {" "}
-                    <img
-                        src="https://www.discoverpuertorico.com/sites/default/files/styles/horizontal_narrow_800x600/public/2019-02/playuela-beach-cabo-rojo.jpg?h=6eb229a4&itok=H9UWuO1C"
-                        style={{ width: "120px", height: "100px" }}
-                    />{" "}
-                </Col>
-            </Row>
+            <Col> First col is here </Col>
+            <Col>
+                {" "}
+                <img
+                    src="https://www.discoverpuertorico.com/sites/default/files/styles/horizontal_narrow_800x600/public/2019-02/playuela-beach-cabo-rojo.jpg?h=6eb229a4&itok=H9UWuO1C"
+                    style={{ width: "120px", height: "100px" }}
+                />{" "}
+            </Col>
+
             <div style={{ border: "1px solid red", padding: "4px" }}>
                 <ol>
                     <li>Palm Trees</li>
