@@ -13,13 +13,15 @@ function App(): JSX.Element {
             <div>
                 <h1>header is here</h1>
             </div>
-            <div>
-                <img
-                    src="https://www.discoverpuertorico.com/sites/default/files/styles/horizontal_narrow_800x600/public/2019-02/playuela-beach-cabo-rojo.jpg?h=6eb229a4&itok=H9UWuO1C"
-                    alt="PR Beach"
-                    style={{ width: "120px", height: "100px" }}
-                />
-            </div>
+            <>
+                <div>
+                    <img
+                        src="https://www.discoverpuertorico.com/sites/default/files/styles/horizontal_narrow_800x600/public/2019-02/playuela-beach-cabo-rojo.jpg?h=6eb229a4&itok=H9UWuO1C"
+                        alt="PR Beach"
+                        style={{ width: "120px", height: "100px" }}
+                    />
+                </div>
+            </>
             <>
                 <div>
                     <Button onClick={() => console.log("Hello World!")}>
