@@ -1,14 +1,14 @@
 import React from "react";
 import "./App.css";
 import Button from "react-bootstrap/esm/Button";
-import { Row } from "react-bootstrap";
+import { Col, Row } from "react-bootstrap";
 
 function App(): JSX.Element {
     return (
         <div className="App">
             <h1>header is here</h1>
             <img
-                src="https://drive.google.com/file/d/1mKAzffEPl8d7VJJOwKJQxxaZBtd9qPkq/view?usp=sharing"
+                src="https://drive.google.com/uc?id=1mKAzffEPl8d7VJJOwKJQxxaZBtd9qPkq"
                 alt="My trip to PR"
             />
             <header className="App-header">
@@ -19,11 +19,11 @@ function App(): JSX.Element {
                 Click Me
             </Button>
             <Row>
-                <col> First col is here </col>
-                <col>
+                <Col> First col is here </Col>
+                <Col>
                     {" "}
-                    <img src="https://drive.google.com/file/d/1mKAzffEPl8d7VJJOwKJQxxaZBtd9qPkq/view?usp=sharing" />{" "}
-                </col>
+                    <img src="https://drive.google.com/uc?id=1mKAzffEPl8d7VJJOwKJQxxaZBtd9qPkq" />{" "}
+                </Col>
             </Row>
             <div style={{ border: "1px solid red", padding: "4px" }}>
                 <ol>
