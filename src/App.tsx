@@ -18,9 +18,11 @@ function App(): JSX.Element {
                 UD CISC275 with React Hooks and TypeScript DIANA DIAZ
             </header>
 
-            <Button onClick={() => console.log("Hello World!")}>
-                Log Hello World
-            </Button>
+            <div>
+                <Button onClick={() => console.log("Hello World!")}>
+                    Log Hello World
+                </Button>
+            </div>
 
             <Row>
                 <Col> First col is here </Col>
