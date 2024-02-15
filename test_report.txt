@@ -46,7 +46,7 @@ FAIL src/App.test.tsx
       2 | import "./App.css";
     > 3 | import Button from "react-bootstrap/esm/Button";
         | ^
-      4 | import { Col, Row } from "react-bootstrap";
+      4 | import { Col, Container, Row } from "react-bootstrap";
       5 |
       6 | function App(): JSX.Element {
 
@@ -88,7 +88,7 @@ FAIL src/text.test.tsx
       2 | import "./App.css";
     > 3 | import Button from "react-bootstrap/esm/Button";
         | ^
-      4 | import { Col, Row } from "react-bootstrap";
+      4 | import { Col, Container, Row } from "react-bootstrap";
       5 |
       6 | function App(): JSX.Element {
 
@@ -130,7 +130,7 @@ FAIL src/HtmlCss.test.tsx
       2 | import "./App.css";
     > 3 | import Button from "react-bootstrap/esm/Button";
         | ^
-      4 | import { Col, Row } from "react-bootstrap";
+      4 | import { Col, Container, Row } from "react-bootstrap";
       5 |
       6 | function App(): JSX.Element {
 
@@ -146,5 +146,5 @@ All files |       0 |      100 |       0 |       0 |
 Test Suites: 3 failed, 3 total
 Tests:       0 total
 Snapshots:   0 total
-Time:        2.878 s
+Time:        2.816 s
 Ran all test suites.
