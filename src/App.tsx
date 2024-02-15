@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import Button from "react-bootstrap/esm/Button";
-import { Col, Row } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 
 function App(): JSX.Element {
     return (
@@ -23,16 +23,18 @@ function App(): JSX.Element {
                     Log Hello World
                 </Button>
             </div>
-            <Row>
-                <Col> First col is here </Col>
-                <Col>
-                    {" "}
-                    <img
-                        src="https://www.discoverpuertorico.com/sites/default/files/styles/horizontal_narrow_800x600/public/2019-02/playuela-beach-cabo-rojo.jpg?h=6eb229a4&itok=H9UWuO1C"
-                        style={{ width: "120px", height: "100px" }}
-                    />{" "}
-                </Col>
-            </Row>
+            <Container>
+                <Row>
+                    <Col> First col is here </Col>
+                    <Col>
+                        {" "}
+                        <img
+                            src="https://www.discoverpuertorico.com/sites/default/files/styles/horizontal_narrow_800x600/public/2019-02/playuela-beach-cabo-rojo.jpg?h=6eb229a4&itok=H9UWuO1C"
+                            style={{ width: "120px", height: "100px" }}
+                        />{" "}
+                    </Col>
+                </Row>
+            </Container>
             <div style={{ border: "1px solid red", padding: "4px" }}>
                 <ol>
                     <li>Palm Trees</li>
