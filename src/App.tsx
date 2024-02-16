@@ -18,7 +18,11 @@ function App(): JSX.Element {
                     <img
                         src="https://www.discoverpuertorico.com/sites/default/files/styles/horizontal_narrow_800x600/public/2019-02/playuela-beach-cabo-rojo.jpg?h=6eb229a4&itok=H9UWuO1C"
                         alt="PR Beach"
-                        style={{ width: "120px", height: "100px" }}
+                        style={{
+                            width: "120px",
+                            height: "100px",
+                            marginBottom: "40px"
+                        }}
                     />
                 </div>
             </>
