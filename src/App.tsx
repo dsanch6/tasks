@@ -36,7 +36,7 @@ function App(): JSX.Element {
 
             <div
                 style={{
-                    backgroundColor: "solid red",
+                    backgroundColor: "red",
                     height: "45px",
                     width: "100x"
                 }}
