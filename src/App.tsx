@@ -11,7 +11,9 @@ function App(): JSX.Element {
             </header>
 
             <div>
-                <h1>header is here</h1>
+                <h1 style={{ backgroundColor: "blueviolet" }}>
+                    header is here
+                </h1>
             </div>
             <>
                 <div>
