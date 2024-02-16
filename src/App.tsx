@@ -43,14 +43,8 @@ function App(): JSX.Element {
             >
                 <Container>
                     <Row>
-                        <Row>
-                            {" "}
-                            <Col>First col is here</Col>{" "}
-                        </Row>
-                        <Row>
-                            {" "}
-                            <Col>Second Col is here</Col>{" "}
-                        </Row>
+                        <Col>First col is here</Col>
+                        <Col>Second Col is here</Col>
                     </Row>
                 </Container>
             </div>
