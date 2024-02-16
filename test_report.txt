@@ -38,12 +38,6 @@ FAIL src/HtmlCss.test.tsx
       [33mstyle[39m=[32m"width: 120px; height: 100px; margin-bottom: 40px;"[39m
     [36m/>[39m
 
-    Ignored nodes: comments, <script />, <style />
-    [36m<img[39m
-      [33msrc[39m=[32m"https://www.discoverpuertorico.com/sites/default/files/styles/horizontal_narrow_800x600/public/2019-02/playuela-beach-cabo-rojo.jpg?h=6eb229a4&itok=H9UWuO1C"[39m
-      [33mstyle[39m=[32m"width: 120px; height: 100px;"[39m
-    [36m/>[39m
-
     (If this is intentional, then use the `*AllBy*` variant of the query (like `queryAllByText`, `getAllByText`, or `findAllByText`)).
 
     Ignored nodes: comments, <script />, <style />
@@ -98,12 +92,7 @@ FAIL src/HtmlCss.test.tsx
                 [36m<div[39m
                   [33mclass[39m=[32m"col"[39m
                 [36m>[39m
-                  [0m [0m
-                  [36m<img[39m
-                    [33msrc[39m=[32m"https://www.discoverpuertorico.com/sites/default/files/styles/horizontal_narrow_800x600/public/2019-02/playuela-beach-cabo-rojo.jpg?h=6eb229a4&itok=H9UWuO1C"[39m
-                    [33mstyle[39m=[32m"width: 120px; height: 100px;"[39m
-                  [36m/>[39m
-                  [0m [0m
+                  [0mSecond Col is here[0m
                 [36m</div>[39m
               [36m</div>[39m
             [36m</div>[39m
@@ -158,5 +147,5 @@ All files |     100 |      100 |     100 |     100 |
 Test Suites: 1 failed, 2 passed, 3 total
 Tests:       1 failed, 8 passed, 9 total
 Snapshots:   0 total
-Time:        2.617 s
+Time:        2.616 s
 Ran all test suites.
