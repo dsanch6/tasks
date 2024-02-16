@@ -9,7 +9,7 @@ function App(): JSX.Element {
                 UD CISC275 with React Hooks and TypeScript DIANA DIAZ
             </p>
 
-            <div>
+            <div role="banner">
                 <h1 style={{ backgroundColor: "blueviolet" }}>
                     header is here
                 </h1>
