@@ -34,20 +34,14 @@ function App(): JSX.Element {
                     </Button>
                 </div>
             </>
-            <div
-                style={{
-                    width: "20px",
-                    height: "40px",
-                    backgroundColor: "solid red"
-                }}
-            >
-                <Container>
-                    <Row>
-                        <Col> First col is here </Col>
-                        <Col>Second Col is here</Col>
-                    </Row>
-                </Container>
-            </div>
+
+            <Container>
+                <Row>
+                    <Col> First col is here </Col>
+                    <Col>Second Col is here</Col>
+                </Row>
+            </Container>
+
             <div>
                 <ol>
                     <li>Palm Trees</li>
