@@ -38,7 +38,7 @@ function App(): JSX.Element {
                 style={{
                     backgroundColor: "solid red",
                     height: "45px",
-                    width: "20px"
+                    width: "100x"
                 }}
             >
                 <Container>
