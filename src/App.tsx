@@ -37,8 +37,8 @@ function App(): JSX.Element {
             <div
                 style={{
                     backgroundColor: "red",
-                    height: "150x",
-                    width: "80px"
+                    height: "200px",
+                    width: "100px"
                 }}
             >
                 <Container>
