@@ -34,22 +34,20 @@ function App(): JSX.Element {
                     </Button>
                 </div>
             </>
-
-            <Container>
-                <Row>
-                    <Col
-                        style={{
-                            backgroundColor: "solid red",
-                            height: "40px",
-                            width: "20px"
-                        }}
-                    >
-                        {" "}
-                        First col is here{" "}
-                    </Col>
-                    <Col>Second Col is here</Col>
-                </Row>
-            </Container>
+            <div
+                style={{
+                    backgroundColor: "solid red",
+                    height: "45px",
+                    width: "20px"
+                }}
+            >
+                <Container>
+                    <Row>
+                        <Col>First col is here</Col>
+                        <Col>Second Col is here</Col>
+                    </Row>
+                </Container>
+            </div>
 
             <div style={{ marginTop: "80px" }}>
                 <ol>
