@@ -43,8 +43,10 @@ function App(): JSX.Element {
             >
                 <Container>
                     <Row>
-                        <Col style={{ margin: "0 8px" }}>First col is here</Col>
-                        <Col style={{ margin: "0 8px" }}>
+                        <Col style={{ margin: "0 80px", padding: "10px" }}>
+                            First col is here
+                        </Col>
+                        <Col style={{ margin: "0 80px", padding: "10px" }}>
                             Second Col is here
                         </Col>
                     </Row>
