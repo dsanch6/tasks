@@ -48,13 +48,13 @@ function App(): JSX.Element {
                     </Row>
                 </Container>
             </div>
-
-            <ol>
-                <li>Palm Trees</li>
-                <li>Beach</li>
-                <li>Sun</li>
-            </ol>
-
+            <div>
+                <ol>
+                    <li>Palm Trees</li>
+                    <li>Beach</li>
+                    <li>Sun</li>
+                </ol>
+            </div>
             <p>
                 Edit <code>src/App.tsx</code> and save. Hello World This page
                 will automatically reload.
