@@ -42,7 +42,7 @@ function App(): JSX.Element {
                 </Row>
             </Container>
 
-            <div>
+            <div style={{ marginTop: "40px" }}>
                 <ol>
                     <li>Palm Trees</li>
                     <li>Beach</li>
