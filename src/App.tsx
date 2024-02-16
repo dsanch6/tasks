@@ -11,9 +11,9 @@ function App(): JSX.Element {
             </header>
 
             <div>
-                <h1 style={{ backgroundColor: "blueviolet" }}>
+                <header style={{ backgroundColor: "blueviolet" }}>
                     header is here
-                </h1>
+                </header>
             </div>
             <>
                 <div>
@@ -30,8 +30,8 @@ function App(): JSX.Element {
             </>
             <>
                 <div>
-                    <Button onClick={() => console.log("I am logged")}>
-                        Click Me
+                    <Button onClick={() => console.log("Hello World!")}>
+                        Log Hello World
                     </Button>
                 </div>
             </>
