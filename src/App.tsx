@@ -34,29 +34,27 @@ function App(): JSX.Element {
                     </Button>
                 </div>
             </>
-            <div>
+            <div
+                style={{
+                    width: "20px",
+                    height: "40px",
+                    backgroundColor: "solid red"
+                }}
+            >
                 <Container>
                     <Row>
-                        <div
-                            style={{
-                                width: "20px",
-                                height: "40px",
-                                backgroundColor: "solid red"
-                            }}
-                        >
-                            <Col> First col is here </Col>
-                            <Col>Second Col is here</Col>
-                        </div>
+                        <Col> First col is here </Col>
+                        <Col>Second Col is here</Col>
                     </Row>
                 </Container>
             </div>
-            <div style={{ border: "1px solid red", padding: "4px" }}>
-                <ol>
-                    <li>Palm Trees</li>
-                    <li>Beach</li>
-                    <li>Sun</li>
-                </ol>
-            </div>
+
+            <ol>
+                <li>Palm Trees</li>
+                <li>Beach</li>
+                <li>Sun</li>
+            </ol>
+
             <p>
                 Edit <code>src/App.tsx</code> and save. Hello World This page
                 will automatically reload.
