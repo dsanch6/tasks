@@ -37,12 +37,21 @@ function App(): JSX.Element {
 
             <Container>
                 <Row>
-                    <Col> First col is here </Col>
+                    <Col
+                        style={{
+                            backgroundColor: "solid red",
+                            height: "40px",
+                            width: "20px"
+                        }}
+                    >
+                        {" "}
+                        First col is here{" "}
+                    </Col>
                     <Col>Second Col is here</Col>
                 </Row>
             </Container>
 
-            <div style={{ marginTop: "40px" }}>
+            <div style={{ marginTop: "80px" }}>
                 <ol>
                     <li>Palm Trees</li>
                     <li>Beach</li>
