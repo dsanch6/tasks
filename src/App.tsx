@@ -37,8 +37,16 @@ function App(): JSX.Element {
             <div>
                 <Container>
                     <Row>
-                        <Col> First col is here </Col>
-                        <Col>Second Col is here</Col>
+                        <div
+                            style={{
+                                width: "20px",
+                                height: "40px",
+                                backgroundColor: "solid red"
+                            }}
+                        >
+                            <Col> First col is here </Col>
+                            <Col>Second Col is here</Col>
+                        </div>
                     </Row>
                 </Container>
             </div>
