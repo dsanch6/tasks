@@ -22,8 +22,18 @@ export function TwoDice(): JSX.Element {
     const rollRight = () => {
         setRightDye(d6());
     };
-    const checkWin =
-        leftDye === rightDye ? (leftDye === 1 ? "Lose" : "Win") : "";
+    let result;
+    const checkWin = () => {
+        if (leftDye == rightDye) {
+            if (leftDye === 1) {
+                result = "Lose";
+            } else {
+                result = "Win";
+            }
+        } else {
+            result = "";
+        }
+    };
 
     return (
         <div>
