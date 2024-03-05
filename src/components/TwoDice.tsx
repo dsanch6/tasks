@@ -28,7 +28,7 @@ export function TwoDice(): JSX.Element {
         }
         return "";
     };
-    leftDye === rightDye ? (leftDye === 1 ? "Lose" : "Win") : "";
+
     return (
         <div>
             <span data-testid="left-die">{leftDye}</span>
