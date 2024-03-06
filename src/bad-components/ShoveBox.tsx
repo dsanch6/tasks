@@ -1,10 +1,6 @@
 import React, { useState } from "react";
 import { Button } from "react-bootstrap";
 
-interface ShoveBoxButtonProps {
-    position: number;
-    setPosition: React.Dispatch<React.SetStateAction<number>>;
-}
 interface MoveableBoxProps {
     position: number;
 }
