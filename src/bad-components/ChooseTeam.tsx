@@ -13,6 +13,7 @@ const PEOPLE = [
 export function ChooseTeam(): JSX.Element {
     const [allOptions, setAllOptions] = useState<string[]>(PEOPLE);
     const [team, setTeam] = useState<string[]>([]);
+    setAllOptions(PEOPLE);
 
     function chooseMember(newMember: string) {
         setTeam((previousT) => {
