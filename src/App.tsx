@@ -32,8 +32,8 @@ function App(): JSX.Element {
             <ChangeColor></ChangeColor>
             <hr></hr>
             <MultipleChoiceQuestion
-            // options={["a", "b", "c"]}
-            //expectedAnswer="b"
+                options={["a", "b", "c"]}
+                expectedAnswer="b"
             ></MultipleChoiceQuestion>
             <hr></hr>
             {<DoubleHalf></DoubleHalf>}
