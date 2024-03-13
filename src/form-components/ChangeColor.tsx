@@ -12,7 +12,6 @@ export function ChangeColor(): JSX.Element {
         "Pink",
         "Black"
     ];
-
     const [selectColor, setSelectColor] = useState<string>(colors[0]);
     function handleColorChange(event: React.ChangeEvent<HTMLInputElement>) {
         setSelectColor(event.target.value);
