@@ -6,8 +6,8 @@ PASS src/objects.test.ts
 PASS src/arrays.test.ts
 PASS src/nested.test.ts
 PASS src/components/StartAttempt.test.tsx
-PASS src/form-components/MultipleChoiceQuestion.test.tsx
 PASS src/components/TwoDice.test.tsx
+PASS src/form-components/MultipleChoiceQuestion.test.tsx
 PASS src/functions.test.ts
 [0;33mOne of your dependencies, babel-preset-react-app, is importing the
 "@babel/plugin-proposal-private-property-in-object" package without
@@ -94,5 +94,5 @@ All files                    |   99.21 |    92.04 |     100 |   99.15 |
 Test Suites: 20 passed, 20 total
 Tests:       134 passed, 134 total
 Snapshots:   0 total
-Time:        8.305 s
+Time:        8.211 s
 Ran all test suites.
